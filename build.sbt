@@ -17,8 +17,12 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-    "org.scalatest" %% "scalatest" % "3.0.0" % "test",
-    "org.scalacheck" %% "scalacheck" % "1.13.4" % "test"
+    "org.scalactic" %% "scalactic" % "3.0.1",
+    "org.scalatest" %% "scalatest" % "3.0.1" % "test",
+    "org.scalacheck" %% "scalacheck" % "1.13.4" % "test",
+
+    "com.fasterxml.jackson.dataformat" % "jackson-dataformat-yaml" % "2.8.8",
+    "com.fasterxml.jackson.module" % "jackson-module-scala_2.10" % "2.8.8"
 )
 
 scalacOptions ++= Seq(
