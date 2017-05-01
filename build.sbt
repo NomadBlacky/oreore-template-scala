@@ -22,7 +22,7 @@ libraryDependencies ++= Seq(
     "org.scalacheck" %% "scalacheck" % "1.13.4" % "test",
 
     "com.fasterxml.jackson.dataformat" % "jackson-dataformat-yaml" % "2.8.8",
-    "com.fasterxml.jackson.module" % "jackson-module-scala_2.10" % "2.8.8"
+    "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.8.8",
 )
 
 scalacOptions ++= Seq(
