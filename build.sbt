@@ -23,6 +23,8 @@ libraryDependencies ++= Seq(
 
     "com.fasterxml.jackson.dataformat" % "jackson-dataformat-yaml" % "2.8.8",
     "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.8.8",
+
+    "net.jcazevedo" %% "moultingyaml" % "0.4.0"
 )
 
 scalacOptions ++= Seq(
