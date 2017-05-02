@@ -17,33 +17,28 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-    "org.scalactic" %% "scalactic" % "3.0.1",
-    "org.scalatest" %% "scalatest" % "3.0.1" % "test",
-    "org.scalacheck" %% "scalacheck" % "1.13.4" % "test",
-
-    "com.fasterxml.jackson.dataformat" % "jackson-dataformat-yaml" % "2.8.8",
-    "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.8.8",
-
-    "net.jcazevedo" %% "moultingyaml" % "0.4.0"
+  "org.scalactic" %% "scalactic" % "3.0.1",
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test",
+  "org.scalacheck" %% "scalacheck" % "1.13.4" % "test"
 )
 
 scalacOptions ++= Seq(
-    "-target:jvm-1.8",
-    "-deprecation",
-    "-encoding", "UTF-8",
-    "-feature",
-    "-language:existentials",
-    "-language:higherKinds",
-    "-language:implicitConversions",
-    "-language:experimental.macros",
-    "-unchecked",
-    //"-Ywarn-unused-import",
-    "-Ywarn-nullary-unit",
-    "-Xfatal-warnings",
-    "-Xlint",
-    //"-Yinline-warnings",
-    "-Ywarn-dead-code",
-    "-Xfuture")
+  "-target:jvm-1.8",
+  "-deprecation",
+  "-encoding", "UTF-8",
+  "-feature",
+  "-language:existentials",
+  "-language:higherKinds",
+  "-language:implicitConversions",
+  "-language:experimental.macros",
+  "-unchecked",
+  //"-Ywarn-unused-import",
+  "-Ywarn-nullary-unit",
+  "-Xfatal-warnings",
+  "-Xlint",
+  //"-Yinline-warnings",
+  "-Ywarn-dead-code",
+  "-Xfuture")
 
 initialCommands := "import org.nomadblacky.oreoretemplatescala._"
 
