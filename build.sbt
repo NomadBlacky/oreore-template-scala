@@ -19,7 +19,11 @@ resolvers ++= Seq(
 libraryDependencies ++= Seq(
   "org.scalactic" %% "scalactic" % "3.0.1",
   "org.scalatest" %% "scalatest" % "3.0.1" % "test",
-  "org.scalacheck" %% "scalacheck" % "1.13.4" % "test"
+  "org.scalacheck" %% "scalacheck" % "1.13.4" % "test",
+
+  "com.typesafe" % "config" % "1.3.1",
+  "com.github.scopt" %% "scopt" % "3.5.0",
+  "com.typesafe" % "config" % "1.3.1"
 )
 
 scalacOptions ++= Seq(
