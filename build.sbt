@@ -48,3 +48,5 @@ ScalariformKeys.preferences := ScalariformKeys.preferences.value
   .setPreference(AlignSingleLineCaseStatements, true)
   .setPreference(DoubleIndentClassDeclaration, true)
   .setPreference(RewriteArrowSymbols, true)
+
+lazy val root = (project in file(".")).enablePlugins(ConscriptPlugin)
