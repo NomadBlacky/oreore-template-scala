@@ -1,0 +1,11 @@
+[app]
+  version: 0.1.0
+  org: org.nomadblacky
+  name: oreore-template-scala
+  class: org.nomadblacky.oreoretemplate.OreOreTemplate
+[scala]
+  version: 2.12.2
+[repositories]
+  local
+  scala-tools-releases
+  sonatype-releases: https://oss.sonatype.org/content/repositories/releases/

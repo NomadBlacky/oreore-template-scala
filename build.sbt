@@ -44,7 +44,7 @@ scalacOptions ++= Seq(
   "-Ywarn-dead-code",
   "-Xfuture")
 
-initialCommands := "import org.nomadblacky.oreoretemplatescala._"
+initialCommands := "import org.nomadblacky.oreoretemplate._"
 
 SbtScalariform.scalariformSettings
 
