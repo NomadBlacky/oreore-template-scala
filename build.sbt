@@ -1,6 +1,7 @@
 import scalariform.formatter.preferences._
 import com.typesafe.sbt.SbtScalariform
 import com.typesafe.sbt.SbtScalariform.ScalariformKeys
+import sbtconscript.ConscriptPlugin
 
 name := "oreore-template-scala"
 
